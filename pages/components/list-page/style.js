@@ -1,0 +1,24 @@
+import styled from 'styled-components/native';
+import {pxSize} from '../../../util';
+const ItemWrapper = styled.TouchableOpacity`
+  width: ${pxSize(750 / 2)}px;
+  align-items: center;
+`;
+const ImgWrapper = styled.View`
+  align-items: center;
+  margin-top: 10px;
+`;
+const Image = styled.Image`
+  width: ${pxSize(350)}px;
+  height: ${pxSize(400)}px;
+`;
+const TextWrapper = styled.View`
+  padding: 10px 15px 0;
+`;
+const Title = styled.Text`
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 3px;
+`;
+
+export {ItemWrapper, ImgWrapper, Image, TextWrapper, Title};
